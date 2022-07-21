@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start Header section -->
+    <header>
+        <!-- start nav -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+        <!-- start hero section -->
+        <section>
+            <img src="../images/hero_2.jpg" alt="ocean view" width="800">
+            <video src=""></video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p></p>
+        </section>
+        <!-- end hero section -->
+    </header>
+    <!-- end header section -->
+    <!-- aside section -->
+    <aside>
+        <ul>
+            <li><a href="#">link1</a></li>
+            <li><a href="#">link2</a></li>
+            <li><a href="#">link3</a></li>
+            <li><a href="#">link4</a></li>
+        </ul>
+    </aside>
+    <!-- end aside section -->
+    <!-- start main section -->
+    <main>
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor 
+                incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <img src="https://via.placeholder.com/150" alt="">
+        </section>
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor 
+                incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <img src="https://via.placeholder.com/150" alt="">
+
+        </section>
+        <section>
+            <!-- tables -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Supervisor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>James</td>
+                        <td>Kabera</td>
+                        <td rowspan="2">Sup 1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jane</td>
+                        <td>Kabera</td>
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Patrick</td>
+                        <td>Kwizera</td>
+                        <td>Sup 2</td>
+
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td colspan="3">Patrick</td>
+                
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Form -->
+        <p></p>
+        <section>
+            <form method="get" action="semantic.html" enctype="multipart/form-data">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="first name" required>
+                <label for="dob">Date of Birth</label>
+                <input type="datetime-local" name="dateOfBirth" id="dob" required>
+                
+                <br>
+                <label for="gender">Gender</label>
+                <input type="radio"  id="gender">Male
+                <input type="radio"  id="gender">Female
+                
+                <br>
+                <label for="hobbies">Hobbies</label>
+                <input type="checkbox" name="movies" id="hobbies">movies
+                <input type="checkbox" name="music" id="hobbies">Music
+                <input type="checkbox" name="books" id="hobbies">Books
+                <input type="checkbox" name="sports" id="hobbies">Sports
+                <br>
+
+                <label for="Province">Province</label>
+                <select name="province" id="province">
+                    <option value="">---</option>
+                    <option value="kigali">Kigali City</option>
+                    <option value="north">North</option>
+                    <option value="south">South</option>
+                    <option value="east">East</option>
+                    <option value="west">West</option>
+                </select>
+
+                <input type="color" name="color" id="">
+                <input type="file" name="photo" id="">
+                
+                <br>
+                <!-- <input type="submit" value="send"> -->
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <!-- end main section -->
+    <!-- start footer -->
+    <footer>
+        <p>
+            copyright info
+        </p>
+    </footer>
+    <!-- end footer -->
+</body>
+</html>

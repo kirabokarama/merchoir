@@ -1,0 +1,19 @@
+/* universal selector */
+/* 
+ #25283d
+ #f5f1ed
+ #f28f3b
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.service-text{
+    color: #551B14;
+}
+.btn-submit, .btn-submit:hover{
+    background-color: #551B14;
+    color: #fff;
+}
+

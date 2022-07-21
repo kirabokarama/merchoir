@@ -1,0 +1,12 @@
+creating a python virtual environment (windows)
+ python -m venv env_name
+ 
+activating your environment(windows)
+ env_name\Scripts\activate
+ 
+deactiving your environment (windows & others)
+ deactivate
+ 
+installing packages from requirements
+
+ pip install -r requirements.txt

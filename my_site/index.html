@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/united/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <!-- external css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- internal styles -->
+    <!-- <style> 
+        body{
+            background-color: #f5f1ed; 
+            color:#25283d;
+        }
+    </style>
+    -->
+</head>
+<body>
+
+    <!-- start Header section -->
+    <header>
+        <!-- start nav -->
+        <nav class="navbar navbar-dark navbar-expand-lg bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">My Site</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        <!-- end nav -->
+        <!-- start hero section -->
+        <section>
+            <img src="images/hero.jpg" alt="ocean view" class="img-fluid">
+            <!-- <video src=""></video> -->
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <p></p>
+        </section>
+        <!-- end hero section -->
+    </header>
+    <!-- end header section -->
+    <!-- aside section -->
+    <!-- <aside>
+        <ul>
+            <li><a href="#">link1</a></li>
+            <li><a href="#">link2</a></li>
+            <li><a href="#">link3</a></li>
+            <li><a href="#">link4</a></li>
+        </ul>
+    </aside> -->
+    <!-- end aside section -->
+    <!-- start main section -->
+    <main class="container">
+        <h1 class="text-center my-5 service-text">Services</h1>
+        <div class="container">
+        <section class="row section">
+            <p class="col-9">
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor 
+                incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <img class="col-3" id="img1" src="https://via.placeholder.com/150" alt="">
+        </section>
+    </div>
+    <div class="container mt-3">
+        <section class="row section">
+            <img class="col-3" src="https://via.placeholder.com/150" alt="">
+
+            <p class="col-9">
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor 
+                incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+
+        </section>
+    </div>
+        
+        <section class="mt-3">
+            <!-- tables -->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Supervisor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">1</td>
+                        <td>James</td>
+                        <td>Kabera</td>
+                        <td rowspan="2">Sup 1</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2</td>
+                        <td>Jane</td>
+                        <td>Kabera</td>
+
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Patrick</td>
+                        <td>Kwizera</td>
+                        <td>Sup 2</td>
+
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td colspan="3">Patrick</td>
+                
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Form -->
+        <p></p>
+        <section class="row">
+           
+            <div class="col-6">
+            <form method="post">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" aria-label="Province Select">
+                        <option selected>Open this select province</option>
+                        <option value="1">Kigali City</option>
+                        <option value="2">North</option>
+                        <option value="3">SOuth</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-submit">Submit</button>
+              </form>
+            </div>
+
+        </section>
+    </main>
+    <!-- end main section -->
+    <!-- start footer -->
+    <footer>
+        <p>
+            copyright info
+        </p>
+    </footer>
+    <!-- end footer -->
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- <script src="bootstrap/js/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script> -->
+</body>
+</html>
